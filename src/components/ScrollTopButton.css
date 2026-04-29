@@ -1,0 +1,26 @@
+.scroll-top-button {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    .scroll-top-button {
+        position: fixed;
+        right: 16px;
+        bottom: 18px;
+        z-index: 20;
+        display: grid;
+        place-items: center;
+        width: 46px;
+        height: 46px;
+        padding: 0;
+        border: 0;
+        border-radius: 50%;
+        color: var(--color-white);
+        font-size: var(--font-size-scroll-icon);
+        font-weight: 700;
+        line-height: 1;
+        background: var(--color-red);
+        box-shadow: var(--shadow-floating);
+        cursor: pointer;
+    }
+}

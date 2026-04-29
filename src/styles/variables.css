@@ -1,0 +1,69 @@
+:root {
+    --font-size-base: 17px;
+    --font-size-xs: 13px;
+    --font-size-sm: 14px;
+    --font-size-md: 15px;
+    --font-size-body: 16px;
+    --font-size-title: 24px;
+    --font-size-section-title: 29px;
+    --font-size-section-title-mobile: 22px;
+    --font-size-title-mobile: 20px;
+    --font-size-search-icon: 22px;
+    --font-size-scroll-icon: 26px;
+
+    --color-page-bg: #eef0f3;
+    --color-surface: #ffffff;
+    --color-surface-soft: #fbfcf8;
+    --color-image-bg: #e8ebde;
+
+    --color-text: #333333;
+    --color-text-strong: #283016;
+    --color-text-muted: #7a8368;
+    --color-body-copy: #3f4435;
+
+    --color-green: #78972d;
+    --color-green-dark: #527b19;
+    --color-green-darker: #456c13;
+    --color-green-deep: #35501b;
+    --color-green-text: #3f4b1f;
+    --color-green-muted: #4d552f;
+    --color-green-accent: #6c8b24;
+    --color-green-active-border: #6f8b29;
+    --color-green-hover-bg: #eef4dc;
+    --color-green-hover-border: #cfdba8;
+    --color-green-link-border: #b9c782;
+    --color-green-friend-border: #aebd70;
+    --color-link-hover-bg: #f6f8ef;
+    --color-header-gradient-start: #9fb84b;
+    --color-header-gradient-mid: #8eaa3d;
+
+    --color-red: #7e1515;
+    --color-olive-credit: #718014;
+
+    --color-border: #e2e5d7;
+    --color-border-soft: #e5e8dc;
+    --color-border-panel: #dfe5ce;
+    --color-link-border: #e7ebda;
+    --color-divider: #b3b99f;
+
+    --color-white: #ffffff;
+    --color-black-shadow: rgba(0, 0, 0, 0.08);
+    --color-header-border: rgba(255, 255, 255, 0.24);
+    --color-mobile-nav-border: rgba(255, 255, 255, 0.18);
+    --color-header-surface: rgba(255, 255, 255, 0.14);
+    --color-mobile-surface: rgba(255, 255, 255, 0.2);
+    --color-mobile-nav-bg: rgba(255, 255, 255, 0.82);
+    --color-input-bg: rgba(255, 255, 255, 0.94);
+    --color-mobile-input-bg: rgba(255, 255, 255, 0.96);
+    --color-input-border: rgba(53, 80, 27, 0.24);
+
+    --shadow-header: 0 2px 10px rgba(52, 74, 24, 0.18);
+    --shadow-header-panel: 0 8px 22px rgba(52, 74, 24, 0.12);
+    --shadow-card: 0 8px 22px rgba(60, 72, 36, 0.08);
+    --shadow-panel: 0 10px 24px rgba(60, 72, 36, 0.08);
+    --shadow-small: 0 1px 3px rgba(38, 57, 16, 0.22);
+    --shadow-active-nav: 0 6px 14px rgba(82, 123, 25, 0.18);
+    --shadow-friend: 0 5px 14px rgba(60, 72, 36, 0.06);
+    --shadow-friend-hover: 0 8px 20px rgba(60, 72, 36, 0.1);
+    --shadow-floating: 0 8px 18px rgba(52, 74, 24, 0.22);
+}

@@ -1,9 +1,12 @@
+import { getPublicAssetPath } from '../utils/assetPath.js';
 import './ArticleCard.css';
 
 function ArticleCard({ article }) {
     return (
         <article className="catalog-article">
-            {article.image && <img className="catalog-article-image" src={article.image} alt={article.title} />}
+            {article.image && (
+                <img className="catalog-article-image" src={getPublicAssetPath(article.image)} alt={article.title} />
+            )}
 
             <div className="catalog-article-body">
                 <h3>{article.title}</h3>

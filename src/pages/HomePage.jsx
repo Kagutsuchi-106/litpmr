@@ -1,3 +1,4 @@
+import { getPublicAssetPath } from '../utils/assetPath.js';
 import './HomePage.css';
 
 function HomePage() {
@@ -11,7 +12,10 @@ function HomePage() {
             <article className="report-item">
                 <div className="article-meta">26 июня 2015 г. · Дворец республики, г. Тирасполь</div>
                 <h3>Творческая встреча с редакторами журнала "Юность"</h3>
-                <img src="/writers-meeting-2015.png" alt="Творческая встреча членов Союза писателей" />
+                <img
+                    src={getPublicAssetPath('writers-meeting-2015.png')}
+                    alt="Творческая встреча членов Союза писателей"
+                />
                 <p>
                     Творческая встреча членов Союза писателей Приднестровья с главными редакторами московского журнала
                     "Юность" Валерием Дударевым.
@@ -22,7 +26,10 @@ function HomePage() {
             <article className="report-item">
                 <div className="article-meta">30 мая 2014 г. · Дворец республики, г. Тирасполь</div>
                 <h3>Подготовка празднования 25-летия Республики</h3>
-                <img src="/writers-group-2014.png" alt="Встреча творческой группы Союза писателей" />
+                <img
+                    src={getPublicAssetPath('writers-group-2014.png')}
+                    alt="Встреча творческой группы Союза писателей"
+                />
                 <p>
                     Встреча творческой группы Союза писателей Приднестровья с начальником Государственной службы по
                     культуре ПМР Марией Андреевной Кырмыз.

@@ -182,7 +182,6 @@
     }
 
     .header-logo {
-        content: url('/spp-logo-mobile.png');
         width: 106px;
         max-height: 112px;
     }

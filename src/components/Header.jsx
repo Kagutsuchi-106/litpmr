@@ -1,11 +1,19 @@
 import SearchForm from './SearchForm.jsx';
 import Navigation from './Navigation.jsx';
+import { getPublicAssetPath } from '../utils/assetPath.js';
 import './Header.css';
 
 function Header({ activePage, isMobileMenuOpen, menuItems, onMenuToggle, onNavigate }) {
     return (
         <header className="site-header">
-            <img className="header-logo" src="/spp-header.png" alt="Союз писателей Приднестровья" />
+            <picture>
+                <source media="(max-width: 700px)" srcSet={getPublicAssetPath('spp-logo-mobile.png')} />
+                <img
+                    className="header-logo"
+                    src={getPublicAssetPath('spp-header.png')}
+                    alt="Союз писателей Приднестровья"
+                />
+            </picture>
 
             <div className="header-actions">
                 <div className="header-tools">
